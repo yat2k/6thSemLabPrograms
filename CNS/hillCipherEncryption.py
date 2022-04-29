@@ -1,4 +1,5 @@
 # Python3 code to implement Hill Cipher  --- This is only encryption and not decryption
+#Code is messy, if anyone wants to modify, feel free
 
 keyMatrix = [[0] * 3 for i in range(3)]
 
