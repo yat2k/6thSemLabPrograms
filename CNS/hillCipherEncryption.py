@@ -1,4 +1,4 @@
-# Python3 code to implement Hill Cipher
+# Python3 code to implement Hill Cipher  --- This is only encryption and not decryption
 
 keyMatrix = [[0] * 3 for i in range(3)]
 
@@ -51,11 +51,15 @@ def HillCipher(message, key):
 
 def main():
 
-	message = "ACT"
+	msg1="YAT"					#Use your own name with each string divided into strings of length 3
+	msg2="HIN"					#will make the code better with for loop (but lazy rn)
+	msg3="RAO"
 
-	key = "GYBNQKURP"
+	key = "GYBNQKURP"                     #Any key is fine
 
-	HillCipher(message, key)
+	HillCipher(msg1, key)
+	HillCipher(msg2, key)
+	HillCipher(msg3, key)
 
 if __name__ == "__main__":
 	main()
