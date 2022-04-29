@@ -1,0 +1,18 @@
+<html>
+<body>
+<script type="text/javascript">
+var n=prompt("enter a number");
+if(n!=null && n>0)
+{
+var i=0;
+document.write("<h2>The first " + n + " numbers and their squares are: </h2>");
+document.write("<table border=1><tr><th><b>Number</b></th><th><b>Square</b></th></tr><br>");
+for(i=1;i<=n;i++)
+document.write("<tr><td>" + i + "</td><td>" + i*i + "</td></tr><br>");
+document.write("</table>");
+}
+else
+alert("No input");
+</script>
+</body>
+</html>
