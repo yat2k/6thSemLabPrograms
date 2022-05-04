@@ -16,12 +16,12 @@ class Graph:
 
         dist = [float("Inf")] * self.V
         dist[src] = 0
-        print(dist)
+        #print(dist)
         for i in range(self.V - 1):
             for s, d, w in self.graph:
                 if dist[s] != float("Inf") and dist[s] + w < dist[d]:
                     dist[d] = dist[s] + w
-                    print(dist)
+                    #print(dist)
                     
         for s, d, w in self.graph:
             if dist[s] != float("Inf") and dist[s] + w < dist[d]:
