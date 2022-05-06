@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Program 3a</title>
+</head>
+<script type="text/javascript">
+function vowel()
+{
+var n = prompt("Enter a string: ","");
+flag=0;
+for(i=0;i<n.length && flag!=1 ;i++)
+{
+switch(n[i])
+{
+case 'a':
+case 'e':
+case 'i':
+case 'o':
+case 'u': alert("The left most vowel is present in the position: " +(i+1));
+ flag = 1;
+ break;
+default : break;
+}
+}
+if(!flag)
+alert("No Vowels found.");
+}
+</script>
+<body onload="vowel()">
+</body>
+</html>
