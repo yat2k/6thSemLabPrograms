@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="4b.xsl" ?>
+<students>
+  <title>Student Information</title>
+  <student>
+    <usn>4ni19is116</usn>
+    <name>Yathin</name>
+    <college>NIE</college>
+    <branch>ISE</branch>
+    <yoj>2019</yoj>
+    <email>4ni19is116@nie.ac.in</email>
+  </student>
+  <student>
+    <usn>1AT10CS002</usn>
+    <name>Y</name>
+    <college>AIT</college>
+    <branch>Computer Science and Engineering</branch>
+    <yoj>2010</yoj>
+    <email>y@me.com</email>
+  </student>
+  <student>
+    <usn>1AT10CS003</usn>
+    <name>Z</name>
+    <college>AIT</college>
+    <branch>Computer Science and Engineering</branch>
+    <yoj>2010</yoj>
+    <email>z@gmail.com</email>
+  </student>
+</students>
