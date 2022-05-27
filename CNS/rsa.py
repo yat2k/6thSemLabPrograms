@@ -31,8 +31,8 @@ def prime_check(a):
 check_p = prime_check(p)
 check_q = prime_check(q)
 while(((check_p==False)or(check_q==False))):
-    p = int(input("Enter a prime number for p: "))
-    q = int(input("Enter a prime number for q: "))
+    p = int(input("Enter a prime number for p: "))   #73
+    q = int(input("Enter a prime number for q: "))   #151
     check_p = prime_check(p)
     check_q = prime_check(q)
  
