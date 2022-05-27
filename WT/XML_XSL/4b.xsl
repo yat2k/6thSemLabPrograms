@@ -6,14 +6,14 @@
 
   <xsl:template match="/">
     <html>
-      <body>
+      <body bgcolor="red">
         <xsl:apply-templates/>
       </body>
     </html>
   </xsl:template>
 
   <xsl:template match="student">
-    <xsl:if test="usn='1AT10CS002'">
+    
       <h2>STUDENT</h2>
       USN:<xsl:value-of select="usn"/><br/>
       Name:<xsl:value-of select="name"/><br/>
@@ -21,7 +21,7 @@
       Branch:<xsl:value-of select="branch" /><br/>
       Year of Join:<xsl:value-of select="yoj"/><br/>
       E-Mail:<xsl:value-of select="email"/><br/>
-    </xsl:if>
+  
   </xsl:template>
 
   <xsl:template match="text()"/>
