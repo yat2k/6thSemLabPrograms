@@ -4,11 +4,11 @@
   <title>Student Information</title>
   <student>
     <usn>4ni19is116</usn>
-    <name>Yathin</name>
-    <college>NIE</college>
-    <branch>ISE</branch>
-    <yoj>2019</yoj>
-    <email>4ni19is116@nie.ac.in</email>
+    <name>Some_Name</name>
+    <college>Some_College</college>
+    <branch>Some_Branch</branch>
+    <yoj>Year_Of_Joining</yoj>
+    <email>Some_Email</email>
   </student>
   <student>
     <usn>1AT10CS002</usn>
