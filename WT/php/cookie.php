@@ -3,7 +3,7 @@
 <center><h2> Last visited time on the web page</h2></center>
 <br>
 <?php
-//date_default_timezone_set('Asia/Calcutta'); - You can choose any timezone
+//date_default_timezone_set('Asia/Calcutta');-You can choose any timezone
  
 //Calculate 60 days in the future
 //seconds * minutes * hours * days + current time
