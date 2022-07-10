@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>Program 4</title>
+</head>
+<body>
+  <script type="text/javascript">
+    function validate()
+    {
+       var pattern=/[1-4][A-Z][A-Z][0-9][0-9][A-Z][A-Z][0-9][0-9][0-9]$/;
+       usn = document.getElementById('usn');
+       if( !usn.value.match(pattern))
+       alert("Invalid USN");
+       else
+       alert("Valid USN");
+    }
+    </script>
+    
+<form>
+       Enter USN: 
+       <input type="text" name="usn" id="usn"><br> 
+       <input type="submit" name="submit" onclick=validate()><br>
+</form>
+</body>
+</html>
