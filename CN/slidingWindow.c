@@ -24,7 +24,7 @@ int main ()
     }
 
   printf ("Data Transmitting::: Be Patient...\n");
-  delay (1000);
+  delay (2);
 
   printf ("Frames sent from frame number %d to %d\n", frameStart, frameEnd - 1);
 
@@ -70,7 +70,7 @@ int main ()
       }
          }
          
-    delay (1000);
+    delay (2);
     }
    
    
