@@ -1,3 +1,5 @@
+// will work even without the delay function 
+
 #include <stdio.h>
 #include <time.h>
 
